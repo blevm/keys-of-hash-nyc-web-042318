@@ -1,11 +1,11 @@
 require "pry"
 
 class Hash
-  def keys_of(*arguments)
+  def keys_of(argument)
     things_array = []
     self.each do |key, value|
       binding.pry
-      if value == arguments
+      if value == argument
         things_array << key
       end
     end
