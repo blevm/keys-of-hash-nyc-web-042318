@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(*args)
     things_array = []
     self.collect do |key, value|
       if value == arguments
