@@ -1,7 +1,7 @@
 require "pry"
 
 class Hash
-  def keys_of(*argument)
+  def keys_of(argument)
     things_array = []
     self.each do |key, value|
       #binding.pry
