@@ -3,7 +3,7 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     things_array = []
-    arguments.each do [argument]
+    arguments.each do |argument|
       self.each do |key, value|
       #binding.pry
         if value == argument
