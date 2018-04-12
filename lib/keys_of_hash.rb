@@ -1,5 +1,6 @@
 class Hash
+  things_array = []
   def keys_of(*arguments)
-    return arguments.inspect
+    things_array << arguments.inspect
   end
 end
